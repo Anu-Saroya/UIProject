@@ -1,0 +1,994 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #332C21;
+    font-size: 1rem;
+}
+
+.body-bold {
+    font-weight: 700;
+}
+
+/* family font */
+.sample-text-poppins {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.sample-text-carter {
+    font-family: 'Carter One', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+
+/*main*/
+main {
+    display: flex;
+    color: #332C21;
+}
+
+
+h1 {
+    text-align: center;
+    color: #332C21;
+    font-family: 'Carter One';
+    font-size: 2rem;
+}
+
+.h1-left {
+    text-align: left;
+    color: #332C21;
+    font-family: 'Carter One';
+    font-size: 2rem;
+}
+    
+
+h2 {
+    text-align: left;
+    color: #332C21;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    align-items: center;
+    font-size: 1.125rem;
+
+}
+
+p {
+    margin-left: 20px;
+    color: #332C21;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+
+}
+
+#content {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+/* sidebar */
+section[id^='section'] {
+    display: none;
+}
+
+#sidebar {
+    background-color: #fff;
+    color: #332C21;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+#sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar-nav li {
+    padding: 10px 15px;
+}
+
+#sidebar-nav a {
+    text-decoration: none;
+    color: #332C21;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3;
+    margin-left: 40px;
+}
+
+#sidebar-nav a:hover {
+    color: #CCA770;
+}
+
+
+
+/* typograph */
+
+.typography-example {
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center; /* Center vertically */ 
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    flex-basis: 30%; /* Three columns */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.example-typograph {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px solid #FFBC58; 
+}
+
+/*Color Section Blobs*/
+
+        /*Brand*/
+div.brand{
+    fill: #FFBC58;
+    stroke: #776c5b;
+    stroke-width: 1px;
+
+
+}
+
+        /*Functional Colors*/
+div.functional1{
+    fill: #000000;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+  
+}
+div.functional2{
+    fill: #947359;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.functional3{
+    fill: #CC935E;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.functional4{
+    fill: #FFED75;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+
+
+        /*Feedback Colors*/
+div.feedback-success{
+    fill: #FFBE5C;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+
+div.feedback-error{
+    fill: #E49F93;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.feedback-info{
+    fill: #D8EACC;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.feedback-warning{
+    fill: #FC9765;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+
+        /*Accent Colors*/
+div.accent1{
+    fill: #776c5b;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+
+        /*Neutrals*/
+div.neutral1{
+    fill: #000000;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.neutral2{
+    fill: #D1BE9F;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.neutral3{
+    fill: #FFE5BB;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+div.neutral4{
+    fill: #FFFFFF;
+    width: 250px;
+    height: 250px;
+    stroke: #776c5b;
+    stroke-width: 1px;
+}
+
+/* Columns */
+.column-color {
+    flex: 1;
+    border: 1px solid #CCA770;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Apply inline-block to color blobs to make them appear next to each other */
+.column-color .brand,
+.column-color .functional1,
+.column-color .functional2,
+.column-color .functional3,
+.column-color .functional4,
+.column-color .feedback-info,
+.column-color .feedback-error,
+.column-color .feedback-success,
+.column-color .feedback-warning,
+.column-color .accent1,
+.column-color .neutral1,
+.column-color .neutral2,
+.column-color .neutral3,
+.column-color .neutral4{
+    display: inline-block;
+    align-items: center; 
+}
+
+.colorId{
+    text-align: center;
+}
+.column-color h4,
+.column-color p {
+    margin: -5px 0;
+}
+
+/* Optional: Adjust the grid item styling */
+.grid-item svg {
+    width: 100%;
+}
+
+
+/* Section 7 Forms */
+
+div.note p {
+    width: 65%;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+form {
+    background-color: #fff;
+    width: 65%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 80%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+label[for="reading"],
+label[for="sports"],
+label[for="music"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    display: inline;
+    margin-right: 5px;
+}
+
+label[for="one"],
+label[for="two"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ffa634;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #CCA770;
+}
+
+
+/* Section 8 Tables */
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #FFBD59;
+}
+
+tr:hover {
+    background-color: #CCA770;
+}
+
+.progress-bar-container {
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 70%;
+    background-color: #A9A9A9;
+    border-radius: 20px;
+}
+
+.grid-component {
+    margin-bottom: 30px;
+}
+
+.example-code {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 2%;
+}
+
+
+/* Grid sizes */
+.grid-1-1 {
+    display: flex;
+}
+
+.grid-1-2 {
+    display: flex;
+}
+
+.grid-1-3 {
+    display: flex;
+}
+
+.grid-1-4 {
+    display: flex;
+}
+
+.grid-1-8 {
+    display: flex;
+}
+
+/* Columns */
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #CCA770;
+    box-sizing: border-box;
+    
+}
+
+/* Grid gutter */
+.grid-with-gutter {
+    display: flex;
+}
+
+.grid-with-gutter .column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-right: 10px;
+    /* Add gutter space */
+}
+
+/* Mixed grids */
+.mixed-grid {
+    display: flex;
+}
+
+
+.pattern-library {
+    margin: 20px;
+}
+
+.font-sample {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.font-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#poppinsBtn {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Button */
+.button {
+    background-color: #FFBD59;
+    /* Green */
+    border: 0;
+    color: #332C21;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.danger {
+    background-color: #D97F76;
+}
+
+.warning {
+    background-color: #FF914D;
+}
+
+.button:hover {
+    background-color: #998A73;
+    /* Green */
+    color: white;
+}
+
+a.one:link {
+    color: #ff0000;
+}
+
+a.one:visited {
+    color: #0000ff;
+}
+
+a.one:hover {
+    color: #ffcc00;
+}
+
+/* Loading Button */
+.loading {
+    background-color: #fff;
+    cursor: not-allowed;
+    width: 15%;
+    border-color: #998A73;
+}
+
+.loading img {
+    vertical-align: middle;
+    /* Center the image vertically */
+    margin-left: 10px;
+    /* Add some spacing between "Loading..." text and the image */
+    max-width: 30%
+}
+
+.combo-button {
+    display: inline-block;
+    position: relative;
+}
+
+.combo-primary-action {
+    background-color: #FFBD59;
+    color: #332C21;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.combo-secondary-actions {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 8px;
+    top: 100%;
+    right: 0;
+}
+
+.combo-button:hover .combo-secondary-actions {
+    display: block;
+
+}
+
+.combo-secondary-action {
+    display: block;
+    text-decoration: none;
+    color: #332C21;
+    padding: 8px 0;
+}
+
+.combo-secondary-action:hover {
+    background-color: #998A73;
+    color: white;
+}
+
+.code-style {
+    background-color: #ccc;
+    color: #332C21;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Add this style for table head effect */
+.code-style::before {
+    content: "&lt;";
+    background-color: #998A73;
+    color: #fff;
+    padding: 2px 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-right: 4px;
+}
+
+/* Style for the dialog */
+#section6-content dialog {
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex; /* Use flexbox to center the content */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+/* Style for the form */
+#section6-content div {
+    text-align: center; /* Center text within the form */
+}
+
+
+     /* Common styles for feedback blocks */
+     .feedback-block {
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+
+    .success {
+        background-color: #FFBD59;
+        color: #333; 
+    }
+    #checkcircle {
+        width: 30px;
+        height: 30px; 
+      }
+    
+
+    .warning {
+        background-color: #FF914D;
+        color: #333; /
+    }
+    #warning{
+        width: 30px;
+        height: 30px; 
+    }
+
+    .error {
+        background-color: #E49F93;
+        color: #333; 
+    }
+    #closecircle{
+        width: 30px;
+        height: 30px;  
+    }
+
+    .info {
+        background-color: #D8EACC;
+        color: #333; 
+    }
+    #infocircle{
+        width: 30px;
+        height: 30px;  
+    }
+
+    /* Icon styles */
+
+    /*IconMoon Stylesheet */
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('fonts/icomoon.eot?8aczy9');
+        src:  url('fonts/icomoon.eot?8aczy9#iefix') format('embedded-opentype'),
+          url('fonts/icomoon.ttf?8aczy9') format('truetype'),
+          url('fonts/icomoon.woff?8aczy9') format('woff'),
+          url('fonts/icomoon.svg?8aczy9#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        speak-as: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-add:before {
+        content: "\e900";
+      }
+      .icon-checkcircle:before {
+        content: "\e901";
+      }
+      .icon-close:before {
+        content: "\e902";
+      }
+      .icon-delete:before {
+        content: "\e903";
+      }
+      .icon-download:before {
+        content: "\e904";
+      }
+      .icon-error:before {
+        content: "\e905";
+      }
+      .icon-follow:before {
+        content: "\e906";
+      }
+      .icon-info:before {
+        content: "\e907";
+      }
+      .icon-like:before {
+        content: "\e908";
+      }
+      .icon-save:before {
+        content: "\e909";
+      }
+      .icon-share:before {
+        content: "\e90a";
+      }
+      .icon-unfollow:before {
+        content: "\e90b";
+      }
+      .icon-upload:before {
+        content: "\e90c";
+      }
+      .icon-warning:before {
+        content: "\e90d";
+      }
+      
+      /*end of IconMoonStylesheet*/
+
+    .icon-feedback-size{
+        font-size: 1.25rem;
+    }
+    .icon-svg{
+        font-size:3.125rem;
+    }
+    .icon-library {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+
+    }
+    .icon {
+        border: 1px solid #CCA770; 
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .icon-feedback{
+        border: 1px solid #CCA770; 
+        padding: 25px;
+        text-align: center;
+        margin-top: 25px;
+
+    }
+    .icon-label  {
+        margin-top: 10px;
+        text-align:center;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
+
+
+/* Styles for the code box */
+.code-box {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+}
+
+code {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Logo UI Component*/
+.logo-uicomponent {
+    background-color: #FFBC58; /* Replace with your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.logo-uicomponent-palletcolour1 {
+    background-color: #947359; /* Replace with your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 20%;
+}
+
+.logo-uicomponent-palletcolour2 {
+    background-color: #CC935E; /* Replace with your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 20%;
+}
+
+.logo-uicomponent-palletcolour3 {
+    background-color: #776c5b; /* Replace with your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 20%;
+}
+
+.logo-uicomponent-palletcolour4 {
+    background-color: #FFED75; /* Replace with your desired background color */
+    padding: 20px; /* Adjust padding as needed */
+    width: 20%;
+}
+
+
+
+/*Responsive Breakpoints*/
+
+/* Small screens (phones) */
+@media only screen and (max-width: 800px) {
+    /* Modify styles for small screens here */
+
+
+    /*Responsive Header*/
+    .sample-text-poppins {
+        font-size: 1.125rem;
+    }
+    .sample-text-carter {
+        font-size: 1.5rem;
+    }
+
+    /*Responsive nav sidebar*/
+
+    #sidebar{
+        margin-left:0;
+        font-size: .8rem;
+    }
+    #sidebar-nav a{
+        margin-left:20px;
+        font-size: .8rem;
+    }
+    #sidebar-nav li{
+        padding:0;
+    }
+
+    /*Content Responsiveness*/
+    .pattern-library{
+        margin:2px;
+    }
+    #content{
+        margin-right:5%;
+        margin-left:2%;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+    /*Color Responsiveness*/
+    
+    .column-color .brand,
+    .column-color .functional1,
+    .column-color .functional2,
+    .column-color .functional3,
+    .column-color .functional4,
+    .column-color .feedback-info,
+    .column-color .feedback-error,
+    .column-color .feedback-success,
+    .column-color .feedback-warning,
+    .column-color .accent1,
+    .column-color .neutral1,
+    .column-color .neutral2,
+    .column-color .neutral3,
+    .column-color .neutral4{
+
+        display: block;
+        padding-top: 0;
+        padding:15%
+}
+svg{
+    width:75%;
+}
+
+/*Grid System*/
+
+.grid-component{
+    margin-right: 1%;
+
+    
+}
+.example-code{
+    width: 100%;
+    
+}
+.grid-1-4 .column {
+    display:inherit;
+}
+.grid-1-8 .column {
+    display: inherit;
+    font-size: .8rem;
+    padding: 2%;
+    
+}
+
+/*Buttons*/
+
+li{
+    display: block;
+}
+.button{
+    font-size: 1rem;
+
+}
+.button-set{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.box-section {
+    width: 550px;
+    margin: 0 auto; /* Center the box */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: #f0f0f0; /* Add a background color if needed */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+}
+/* Medium screens (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Modify styles for medium screens here */
+    /* Update other styles as needed */
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1025px) {
+    /* Modify styles for large screens here */
+    /* Update other styles as needed */
+
+    .box-section {
+        width: 550px;
+        margin: 0 auto; /* Center the box */
+        padding: 20px; /* Add padding for better spacing */
+        background-color: #f0f0f0; /* Add a background color if needed */
+        border: 1px solid #8a5050; /* Add a border for visual separation */
+        border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    }
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+

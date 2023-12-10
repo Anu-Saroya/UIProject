@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="charts.js"></script>
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-navbar">
+            <div id="branding">
+                <img src="./images/logo.png" alt="DailyTube logo" id="logo"></a>
+                <h1 span id="company-name" href="index.html">DailyTube Dashboard</h1>
+            </div>
+            <nav id="header-nav">
+                <ul>
+                    <li><a href="index.html">Pattern Library</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <!-- DropDowns -->
+        <div class="">
+        </div>
+
+
+        <!-- Score Cards -->
+        <div class="scorecard-container">
+        </div>
+        <!-- Charts -->
+        <div class="flex-container">
+            <!-- Chart 1 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/pie2.png" />
+                <!-- Chart content goes here -->
+            </div>
+            <!-- Chart 2 -->
+            <div class="chart-container" id="pivotDropdownChart">
+                <h2>Most Subscribed DailyTube Channel</h2>
+                <div class="chart-container" id="topSubscribedChart"></div>
+                <div>
+                    <h2>Filter by Country: Number of DailyTubers </h2>
+                    <div class="dropdown-container">
+                        <label for="countryDropdownpivotDropdownChart">Select Country:</label>
+                        <select id="countryDropdownpivotDropdownChart"></select>
+                    </div>
+                </div>
+                <!-- Table placement correction -->
+                <div id="pivotDropdownChartTable"></div>
+            </div>
+            <!-- Chart 3 -->
+            <div class="chart-container" id="pivotTableChart">
+                <h2>Number of DailyTubers by Country</h2>
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 4 -->
+            <div class="chart-container">
+                <img src="images/scatter-plot.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 5 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/line.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 6 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/stacked.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 7 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/bar-horizontal.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 8 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/bar-vertical.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+
+            <!-- Alternative CHARTS-->
+
+            <!-- Chart 9 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/pie.png" />
+                <!-- Chart content goes here -->
+            </div>
+
+            <!-- Chart 10 -->
+            <div class="chart-container">
+                <h2></h2>
+                <img src="images/bubble.png" />
+                <!-- Chart content goes here -->
+            </div>
+    </section>
+
+</body>
+
+</html>
